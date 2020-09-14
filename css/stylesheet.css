@@ -57,18 +57,20 @@
     background-color: #6db193;
     color:white;
 }
+
 .education-uni
-{   padding-top:3%;
+{   padding-top:1%;
     border-style: none dashed none none;
     border-color: #323232;
 }
 .education-school
-{   padding-top:3%;
+{   padding-top:1%;
     border-style: none none none dashed;
     border-color: #323232;
 }
 .education-head
 {
+    text-align: center;
  font-family: 'Ubuntu', sans-serif;
  font-size: 2rem;   
  padding-bottom: 3%;
@@ -93,9 +95,23 @@
 {
 padding: 3% 7% 1%;
 }
+.working-head
+{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;   
+    padding-bottom: 3%;
+}
 .working-rows
 {
-object-fit: cover; 
+    height: 310px;
+}
+@media screen and (max-width: 800px)
+{
+    .working-rows
+    {
+        height: 700px;   
+    }
 }
 
 .working-thead
@@ -103,4 +119,69 @@ object-fit: cover;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;  
+}
+
+.working-body
+{
+    padding-left:4%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;   
+}
+.activities
+{
+    padding: 3% 7% 3%;   
+    background-color: #323232;
+    color:white;
+}
+.activities-head
+{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;   
+    padding-bottom: 3%;   
+}
+
+.activities-thead
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;  
+}
+
+.activities-body
+{
+    padding-left:4%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.skills
+{ padding: 3% 7% 3%;   
+    
+}
+.skills-head
+{   text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;   
+    padding-bottom: 3%;   
+}
+.skills-thead
+{
+    
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.links
+{
+    padding: 3% 7% 3%;   
+    color:white;   
+    width: 100%;
+    background-color: #323232;
+    text-align: center;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
 }
