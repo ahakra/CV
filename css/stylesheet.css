@@ -10,7 +10,7 @@
     text-align: center;
     font-size: 3.2rem;
 }
-.name h2
+.name h3
 {
     text-align: center;
     font-size: 2.8rem;
@@ -19,16 +19,15 @@
 
 .name-image
 {
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
 }
 .name-image2
 {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
     margin: 0%  0% 0% 60%;
 }
-
 .profile
 {
     text-align: center;
@@ -93,7 +92,6 @@
 
 .working
 {
-
 padding: 3% 7% 1%;
 }
 .working-head
@@ -107,14 +105,6 @@ padding: 3% 7% 1%;
 {
     height: 310px;
 }
-@media screen and (max-width: 800px)
-{
-    .working-rows
-    {
-        height: 730px;   
-    }
-}
-
 .working-thead
 {
     font-family: 'Ubuntu', sans-serif;
@@ -124,10 +114,42 @@ padding: 3% 7% 1%;
 
 .working-body
 {
-    padding-left:4%;
+    padding-left:2%;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;   
 }
+
+
+@media screen and (max-width: 900px)
+{
+                .working-head
+            {
+                text-align: center;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 1rem;   
+                padding-bottom: 3%;
+            }
+
+                .working-container
+                {
+                    line-height: 0.95;
+                    height: 650px;   
+                }
+                .working-thead
+            {
+              
+                font-size: 1rem;  
+            }
+            .working-body
+            {
+                font-size: 0.8em;
+            }
+
+}
+
+
+
+
 .activities
 {
     padding: 3% 7% 3%;   
