@@ -1,0 +1,106 @@
+.name
+{   
+    padding: 1% 7% 3%;
+    background-color: #295f4e; 
+    color:white;
+}
+.name h1
+{
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    font-size: 3.2rem;
+}
+.name h2
+{
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Long Cang', cursive;
+}
+
+.name-image
+{
+    width: 20%;
+    height: 20%;
+}
+.name-image2
+{
+    width: 30%;
+    height: 30%;
+    margin: 0%  0% 0% 60%;
+}
+
+.profile
+{
+    text-align: center;
+    padding:5% 7% 3%;
+}
+.profile-image
+{   
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+.profile-head
+{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 2rem;   
+}
+.profile-description
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.9rem;
+}
+
+.education
+{
+    padding:1% 7% 2%;
+    background-color: #6db193;
+    color:white;
+}
+.education-uni
+{   padding-top:3%;
+    border-style: none dashed none none;
+    border-color: #323232;
+}
+.education-school
+{   padding-top:3%;
+    border-style: none none none dashed;
+    border-color: #323232;
+}
+.education-head
+{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 2rem;   
+ padding-bottom: 3%;
+}
+
+.education-thead
+{   
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.education-body
+{
+    padding-left:4%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.working
+{
+padding: 3% 7% 1%;
+}
+.working-rows
+{
+object-fit: cover; 
+}
+
+.working-thead
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;  
+}
