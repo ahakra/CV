@@ -1,3 +1,13 @@
+#navbar-color
+{
+    background-color: #295f4e; 
+    color:white;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+    
+}
+
 .name
 {   
     padding: 1% 7% 3%;
@@ -17,17 +27,7 @@
     font-family: 'Long Cang', cursive;
 }
 
-.name-image
-{
-    width: 30%;
-    height: 30%;
-}
-.name-image2
-{
-    width: 35%;
-    height: 35%;
-    margin: 0%  0% 0% 60%;
-}
+
 .profile
 {
     text-align: center;
@@ -179,7 +179,8 @@ padding: 3% 7% 1%;
 }
 
 .skills
-{ padding: 3% 7% 3%;   
+{
+     padding: 3% 7% 3%;   
     
 }
 .skills-head
@@ -205,6 +206,9 @@ padding: 3% 7% 1%;
 }
 
 a {
-    color: #0060B6;
+    color:white;
     text-decoration: none;
+}
+a:hover{
+    color: #f4e5c2
 }
